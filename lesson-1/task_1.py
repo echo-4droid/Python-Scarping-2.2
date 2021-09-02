@@ -10,8 +10,8 @@ import json
 username = 'ele-droid'
 response = requests.get('https://api.github.com/users/' + username + '/repos')
 
-for repo in response.json():
-    print(repo['name'])
+for response_json in response.json():
+    print(response_json['name'])
 
 with open('task_1_repo.json', 'w', encoding='utf8') as f:
     json.dump(response.json(), f)

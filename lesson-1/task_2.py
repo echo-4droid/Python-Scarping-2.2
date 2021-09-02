@@ -33,7 +33,8 @@ data = {
     'text': 'Data Scientist',
     'experience': 'noExperience',
     'employment': 'full',
-    'schedule': 'remote'
+    'schedule': 'remote',
+    'industry': '7'
 }
 
 response = requests.get(url=baseurl + 'vacancies', data=data, headers=headers)
