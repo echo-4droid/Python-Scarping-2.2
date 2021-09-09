@@ -1,6 +1,9 @@
 # Current project
 .idea
 *.json
+*.scv
+*.html
+*.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
