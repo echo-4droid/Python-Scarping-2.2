@@ -4,6 +4,7 @@
 *.scv
 *.html
 *.ipynb
+*.jpg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
